@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Login Page</title>
+    <link rel="icon" type="image/x-icon" href="icons8-amazon-50.png"/>
+
+    <style>
+    *{margin:0px;padding:0px;}
+    .header{
+        margin-top:29px;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .three_item a:link , a:visited {
+        text-decoration: none;
+        color:#0066c0;
+    }
+    .space{
+         display: inline-block;
+         width:20px;
+    }
+    .pFont{
+            font-size: 13px!important;
+            line-height: 2!important;
+            color: #555!important;
+        }
+
+    .Login{
+
+            margin:20px auto;
+            height: 400px;
+            width:315px;
+            border-radius: 5px ;
+            border:1px #ddd solid;
+            padding:20px;
+
+        }
+    .main{
+
+        margin:15px 7px ;
+    }
+    .Lev2 a{
+        font-size: 13px;
+        font-family: "Amazon Ember",Arial,sans-serif;;
+        text-decoration: none;
+        color: #0066c0;
+        float:right ;
+    }
+    .placeholder{
+      width: 1px;  height:20px;
+    }
+    .input1 input{
+        height:31px;
+        width: 100%;
+        border: 1px solid #a6a6a6;
+        border-top-color: #949494;
+        border-radius: 5px;
+        box-shadow:0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+        outline: 0;
+
+    }
+    .parent {
+    position:relative;
+    background: none;
+    height:50px;
+    width:300px;
+    text-align: center;
+    line-height:50px;
+
+
+    }
+    .decorative_line{
+    border-top:1px solid grey;
+    position:absolute;
+    width:100%;
+    top:50%;
+    z-index: 9;
+
+    }
+    .item1 a{
+    background: white;
+    color: #123456;
+    text-decoration: none;
+    position: relative;
+    padding-left:5px ;
+    padding-right:5px;
+    z-index: 99;
+    }
+
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    <a href="#"><img src="Logo.JPG"  alt="image"></a>
+</div>
+
+<div class="Login">
+    <div class="main">
+
+    <div class="Lev1 input1">
+        <h1>Sing In</h1>
+        <p>Email (phone for mobile accounts)</p>
+        <form action="#" method="post">
+        <input name="Email" type="text" value="">
+        </form>
+    </div>
+
+    <div class="placeholder"></div>
+
+    <div class="Lev2 input1">
+        <span>Password</span>
+        <a href="#">Forgot Password</a>
+        <form action="#" method="post">
+            <input name="Password" type="password" value="">
+        </form>
+    </div>
+
+        <div class="placeholder"></div>
+
+    <div class="Lev3">
+        <input name="submit" type="image" src="signIn.JPG" value="">
+        <input name="check" type="checkbox" >
+        <span>Keep me signed in.</span>
+    </div>
+
+        <div class="placeholder"></div>
+
+        <div class="parent item1">
+        <div class="decorative_line"></div>
+        <a href="#">New to Amazon?</a>
+
+
+        </div>
+
+        <div class="placeholder"></div>
+
+    <div>
+        <input name="CreateNewAccount" type="image" src="CreatAccount.JPG" value="">
+    </div>
+
+</div>
+</div>
+
+<div class="footer">
+    <img src="separating_line.JPG" >
+    <div class="three_item">
+        <a href="#">Condition of Use</a>
+        <span class="space"></span>
+        <a href="#">Privacy Notice</a>
+        <span class="space"></span>
+        <a href="#">Help</a>
+
+    </div>
+    <p class="pFont">&copy;1996-2017, Amazon.com, Inc. or its affiliates</p>
+</div>
+
+
+
+
+
+</body>
+</html>

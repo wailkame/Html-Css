@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OutofFlow</title>
+
+    <style>
+        *{margin:0;padding:0;font-size:99px;}
+        .parent{
+            background:skyblue;
+            border-top:15px solid red;
+            border-bottom: 15px solid red;
+        }
+        .child{
+            background:forestgreen;
+            height: 100px;
+            width: 70px;
+            z-index: 100;
+            float: left;
+        }
+        .secondchild{
+            background: darkorange;
+            height: 200px;
+            width:120px;
+            z-index: 99;
+            float: left;
+
+        }
+        .absolute{
+            position:absolute;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+
+<div  class="parent">
+
+    <div class="child absolute"></div>
+    <div class="secondchild absolute"></div>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
